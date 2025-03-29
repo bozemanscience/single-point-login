@@ -37,7 +37,8 @@ const SignInPage = () => {
   return (
     <main>
       <form className="main-container" onSubmit={handleSubmit}>
-        <h1 className="header-text">Sign In</h1>
+        <h1 className="header-text">Single Point Studio</h1>
+        <h2 className="header-text">Sign In</h2>
         <input
           name="email"
           onChange={handleInputChange}
