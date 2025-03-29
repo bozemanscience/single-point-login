@@ -37,9 +37,6 @@ const SignUpPage = () => {
 
   return (
     <main>
-      <Link className="home-link" to="/">
-        ◄ Home
-      </Link>
       <form className="main-container" onSubmit={handleSubmit}>
         <h1 className="header-text">Sign Up</h1>
         <p
