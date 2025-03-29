@@ -16,11 +16,7 @@ const router = createBrowserRouter([
       // Public routes
       {
         path: "/",
-        element: <HomePage />,
-      },
-      {
-        path: "/auth/sign-in",
-        element: <SignInPage />,
+        element: <SignInPage />, // Redirect root path to SignInPage
       },
       {
         path: "/auth/sign-up",
